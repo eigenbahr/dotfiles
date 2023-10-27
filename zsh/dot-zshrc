@@ -17,6 +17,9 @@ if type brew &>/dev/null; then
 fi
 _comp_options+=(globdots)		# Include hidden files.
 
+alias vi=nvim
+alias vim=nvim
+
 # ------------------
 # Python
 # ------------------
