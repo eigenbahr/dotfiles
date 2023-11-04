@@ -151,11 +151,18 @@ require('lazy').setup({
   },
 
   {
-    'shaunsingh/nord.nvim',
+    'ishan9299/modus-theme-vim',
     config = function()
-      vim.cmd.colorscheme 'nord'
+      vim.cmd.colorscheme 'modus-operandi'
     end,
   },
+
+  -- {
+  --   'shaunsingh/nord.nvim',
+  --   config = function()
+  --     vim.cmd.colorscheme 'nord'
+  --   end,
+  -- },
 
   {
     -- Set lualine as statusline
@@ -164,7 +171,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'nord',
+        theme = 'onelight',
         component_separators = '|',
         section_separators = '',
       },
