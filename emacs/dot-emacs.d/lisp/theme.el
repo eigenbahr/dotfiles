@@ -4,7 +4,7 @@
 
 (if (display-graphic-p)
     (progn
-      (set-frame-font "FiraCode Nerd Font 14")
+      (set-frame-font "FiraCode Nerd Font 12")
       (set-frame-size (selected-frame) 100 50)))
 
 (use-package nord-theme
